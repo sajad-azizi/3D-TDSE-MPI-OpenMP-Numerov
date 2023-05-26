@@ -1,6 +1,5 @@
 # Time-dependent Schrödinger equation 
-time-independent SE is solved using Numerov method in which we caculate eigenvalues and eigenstates for a specific spherical potentials for each angulare momentum $\ell$
-\par
+time-independent SE is solved using Numerov method in which we caculate eigenvalues and eigenstates for a specific spherical potentials for each angulare momentum $\ell$.
 
 
 
@@ -8,4 +7,4 @@ Our energy box supports the bound states and continumm state up to $E_{\rm max}$
 
 
 
-Then we caculate the dipole matrix element $d_{n n'} = \langle \psi_{n'} |r| \psi_{n} \rangle $
+Then we caculate the dipole matrix element $d_{n\ell ,  n' \ell^{\prime}} = \langle \psi_{n' \ell^{\prime}} |r| \psi_{n\ell } \rangle $
