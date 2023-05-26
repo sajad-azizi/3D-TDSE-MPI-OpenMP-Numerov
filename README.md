@@ -12,4 +12,7 @@ Then we caculate the dipole matrix element $d_{n\ell ,  n' \ell^{\prime}} = \lan
 
 Having Hamiltoniam in velocity gauge 
 $$H_{n\ell ,  n' \ell^{\prime}} = E_{n\ell} \delta_{n\ell ,  n' \ell^{\prime}} + \mathrm{i} A(t) (E_{n\ell} - E_{ n' \ell^{\prime}}) d_{n\ell ,  n' \ell^{\prime}}$$ where $A(t)$ is the vector potential, we can porpagate it in time.
-$$a(t + dt) = \exp[-\mathrm{i} H t] a(t)$$
+$$a(t + dt) = \exp[-\mathrm{i} H dt] a(t)$$
+where $dt$ is the time step. In this code we use Taylor series to propagate in time.
+
+In order to speed up, we used MPI and OpenMP prallelization method of which it runs up to 10 times  faster. Albeit, it depends on how many core you allow to alocate.
