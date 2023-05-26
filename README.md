@@ -8,4 +8,4 @@ Our energy box supports the bound states and continumm state up to $E_{\rm max}$
 
 
 
-Then we caculate the dipole matrix element $d_{n n'} = \leftangle \psi_{n'} |r| \psi_{n} \rightangle
+Then we caculate the dipole matrix element $d_{n n'} = \leftangle \psi_{n'} |r| \psi_{n} \rightangle $
