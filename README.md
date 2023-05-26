@@ -12,4 +12,4 @@ Then we caculate the dipole matrix element $d_{n\ell ,  n' \ell^{\prime}} = \lan
 
 Having Hamiltoniam in velocity gauge 
 $H_{n\ell ,  n' \ell^{\prime}} = E_{n\ell} \delta_{n\ell ,  n' \ell^{\prime}} + \mathrm{i} A(t) (E_{n\ell} - E_{ n' \ell^{\prime}}) d_{n\ell ,  n' \ell^{\prime}}$ where $A(t)$ is the vector potential, we can porpagate it in time.
-$$$a(t) = exp() a(t)$$$
+$$a(t) = exp() a(t)$$
