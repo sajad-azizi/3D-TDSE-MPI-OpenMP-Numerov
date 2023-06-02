@@ -29,5 +29,7 @@ Implementation:
 
 
 ```
-code
+module load mpi.intel/5.0.3
+mpiicpc -Wall -O2 -std=c++17 -O3 -DNDEBUG -funroll-loops -ffast-math -lstdc++ -fopenmp fftwpp/fftw++.cc -lfftw3 -lfftw3_omp tridtdse_hybrid_final.cpp 
+time mpirun -np 5 ./a.out
 ```
